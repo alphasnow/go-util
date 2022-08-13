@@ -35,6 +35,7 @@ var (
 	Byte   ECType = ""
 )
 
+// Md5EC Md5后根据类型获取(hex | base64 | byte)三种结果
 func Md5EC[S string | []byte](s S, ct ECType) S {
 	var res string
 	ms := md5.Sum([]byte(s))
