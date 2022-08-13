@@ -16,8 +16,8 @@ func BenchmarkMd5Encode(b *testing.B) {
 	}
 }
 
-func BenchmarkMd5Code(b *testing.B) {
+func BenchmarkMd5EC(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		Md5En([]byte("admin"), Hex)
+		Md5EC([]byte("admin"), Hex)
 	}
 }

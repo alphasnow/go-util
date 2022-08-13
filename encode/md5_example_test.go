@@ -16,8 +16,8 @@ func ExampleMd5Encode() {
 	// Output: ISMvKXpXpadDiUoOSoAfww==
 }
 
-func ExampleMd5En() {
-	res := Md5En("admin", "base64")
+func ExampleMd5EC() {
+	res := Md5EC("admin", "base64")
 	fmt.Println(res)
 	// Output: ISMvKXpXpadDiUoOSoAfww==
 }
