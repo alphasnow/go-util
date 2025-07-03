@@ -1,6 +1,6 @@
 package internal
 
-var version = "0.0.0"
+var version = "1.0.0"
 
 func Version() string {
 	return version
